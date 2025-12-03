@@ -1,0 +1,39 @@
+# Virtual environments
+backend/venv/
+backend/.venv/
+frontend/venv/
+frontend/.venv/
+.venv/
+venv/
+
+# SQLite database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules (if you add npm packages to frontend later)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment files
+.env
+.env.local
+.env.*.local

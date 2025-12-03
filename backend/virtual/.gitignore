@@ -1,0 +1,4 @@
+backend/venv/
+backend/students.db
+__pycache__/
+*.pyc
