@@ -1,11 +1,6 @@
 from flask import Flask, request, jsonify
 import sqlite3
 from flask_cors import CORS
-
-
-
-
-
 # Create the Flask application object. __name__ tells Flask where to look
 # for templates and static files; it's the module name of the current file.
 app = Flask(__name__)
