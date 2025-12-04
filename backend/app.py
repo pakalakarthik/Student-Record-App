@@ -122,4 +122,7 @@ def delete_student(id):
 # When this file is run directly, start Flask's development server
 if __name__ == "__main__":
     # debug=True enables auto-reload and a helpful debugger on errors
-    app.run(debug=True)
+    #app.run(debug=True)
+      import os
+      port = int(os.environ.get("PORT", 5000))
+      app.run(host="0.0.0.0", port=port)
